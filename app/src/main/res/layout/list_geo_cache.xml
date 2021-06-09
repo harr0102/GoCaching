@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    app:cardMaxElevation="10dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="378dp"
+        android:layout_height="376dp">
+
+        <!--ImageVIew to display cache Image-->
+        <ImageView
+            android:id="@+id/cacheImage"
+            android:layout_width="108dp"
+            android:layout_height="172dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/app_name"
+            android:padding="5dp" />
+
+        <!--Text View to display Cache Name-->
+        <TextView
+            android:id="@+id/cache_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/cacheImage"
+            android:text="@string/cache_text"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!--Text View to display Where -->
+        <TextView
+            android:id="@+id/where_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cache_text"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/cacheImage"
+            android:drawablePadding="2dp"
+            android:text="@string/where" />
+        <!--app:drawableStartCompat="@drawable/ic_star" -->
+
+        <!--Text View to display category -->
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/where_text"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/cacheImage"
+            android:drawablePadding="2dp"
+            android:text="@string/category" />
+        <!--app:drawableStartCompat="@drawable/ic_star" -->
+        <!--Text View to display category -->
+
+        <TextView
+            android:id="@+id/createdDate_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/category"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/cacheImage"
+            android:drawablePadding="2dp"
+            android:text="@string/createdAt" />
+        <!--app:drawableStartCompat="@drawable/ic_star" -->
+
+        <TextView
+            android:id="@+id/updatedDate_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/createdDate_text"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/cacheImage"
+            android:drawablePadding="2dp"
+            android:text="@string/updatedAt" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/user_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/updatedDate_text"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/cacheImage"
+            android:drawablePadding="2dp"
+            android:text="@string/user"
+            android:textColor="@color/white"
+            app:chipBackgroundColor="@color/cadet_blue"
+            app:chipIcon="@drawable/person">
+
+        </com.google.android.material.chip.Chip>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

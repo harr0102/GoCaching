@@ -1,0 +1,3 @@
+include ':opencv-4.0.11'
+include ':app'
+rootProject.name = "GoCaching"

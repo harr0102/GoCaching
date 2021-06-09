@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">GoCaching</string>
+    <string name="where">Hvor:</string>
+    <string name="search">SØG</string>
+    <string name="where_hint">Indsæt cache placering</string>
+    <string name="cache_hint">Indsæt cache navn</string>
+    <string name="category_hint">Indsæt kategori</string>
+    <string name="cache_text">Cache:</string>
+    <string name="searched_text">Søgt:</string>
+    <string name="searched_hint">Søgt</string>
+    <string name="add">Tilføj</string>
+    <string name="info_text">Info</string>
+    <string name="info_hint">Info</string>
+    <string name="update">Opdater cache</string>
+    <string name="edit_cache_text">Rediger cache</string>
+    <string name="add_cache_text">Tilføj cache</string>
+    <string name="list_cache_text">List caches</string>
+    <string name="cache_u_hint">Opdater navn</string>
+    <string name="where_u_hint">Opdater hvor</string>
+    <string name="delete_go_caching">Slet Cache</string>
+    <string name="add_go_caching">Tilføj Cache</string>
+    <string name="logOut">Log ud</string>
+
+
+    <string name="lat_text">Latitude:</string>
+    <string name="lon_text">Longitude:</string>
+    <string name="maps_text">Se placering på kort</string>
+
+    <string
+        name="google_maps_key"
+        templateMergeStrategy="preserve"
+        translatable="false"><PRIVATE KEY></string>
+
+    <string name="Email">Email</string>
+    <string name="password">Kodeord</string>
+    <string name="logo_picture">Logo billede</string>
+    <string name="login">Log ind</string>
+    <string name="fullName">Fulde navn</string>
+    <string name="signUp">Opret dig</string>
+    <string name="category">Kategori</string>
+    <string name="updatedAt">Opdateret d.: </string>
+    <string name="createdAt">Lavet d.: </string>
+    <string name="firstName">Fornavn</string>
+    <string name="lastName">Efternavn</string>
+    <string name="email">Email</string>
+    <string name="edit_profile">Rediger profil</string>
+    <string name="update_profile">Opdater min profil</string>
+    <string name="user">Bruger</string>
+    <string name="delete_user">Slet bruger</string>
+
+    <string name="capture_button">Tag billede</string>
+    <string name="camera_button">Skift kamera</string>
+    <string name="takePicture">Tag billede</string>
+    <string name="passwordImage">Kodeord billede</string>
+    <string name="firstNameImage">Fornavn billede</string>
+    <string name="lastNameImage">Efternavn billede</string>
+    <string name="emailImage">emailbillede</string>
+    <string name="approve">Accepter</string>
+    <string name="disapprove">Accepter ikke</string>
+    <string name="emailMustBeProvided">Email skal gives</string>
+    <string name="passwordMustBeProvided">Kodeord skal gives</string>
+    <string name="lastNameMustBeProvided">Efternavn skal gives</string>
+    <string name="firstNameMustBeProvided">Fornavn skal gives</string>
+    <string name="emailDoesntExists">Email findes ikke</string>
+    <string name="emailAlreadyExists">Email findes allerede</string>
+    <string name="wrongPassword">Forkert kodeord!</string>
+    <string name="currentLocation">Nuværende lokation</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="areYouSureYouWantToLogOut">Er du sikker på du vil logge ud?</string>
+    <string name="loggedOut">Logget ud</string>
+    <string name="noCachesFound">Ingen caches fundet</string>
+    <string name="myCaches">Mine caches</string>
+    <string name="successfullyUpdated">Opdateret korrekt</string>
+    <string name="emailIsAlreadyInUse">Email allerede i brug</string>
+    <string name="yourUserHasNowBeenDeleted">Din bruger er nu blevet slettet!</string>
+
+
+
+
+    <string name="unavailable">Sensor unavailable</string>
+    <string name="degrees">%.7f°</string>
+    <string name="degree_celsius">%.7f°C</string>
+    <string name="point">Point:</string>
+
+
+
+
+
+    <string name="selectPoint">Vælg point</string>
+    <string name="cache_point">...</string>
+    <string name="collect_point">Indsaml XXXX points</string>
+    <string name="total_points">Total points:</string>
+
+
+
+    <string name="back">Tilbage</string>
+    <string-array name="supportItems">
+        <item>Hvordan giver jeg cache et navn?</item>
+        <item>Gå til tilføj cache gennem menuen til tilføj- eller rediger ved at klikke på allerede eksisterende caches</item>
+        <item>Hvordan opdaterer jeg en cache?</item>
+        <item>Klik på den cache du ønsker at opdatere og følg de givne instruktioner.</item>
+        <item>Hvordan sletter jeg en cache?</item>
+        <item>Klik på den cache du ønsker at slette og klik derefter på skraldespanden</item>
+        <item>Hvordan logger jeg ind som admin?</item>
+        <item>Brug email: admin, kodeord: admin</item>
+        <item>Hvordan redigerer jeg min profil?</item>
+        <item>Gå til rediger profil i appbaren når du er logget ind.</item>
+        <item>Hvordan sletter jeg min bruger?</item>
+        <item>Gå til rediger profil og vælg slet bruger</item>
+    </string-array>
+
+
+
+    <string name="support">Hjælp</string>
+    <string name="temperature">Temperature:</string>
+    <string name="scan_qr_text">Scan QR</string>
+
+
+</resources>

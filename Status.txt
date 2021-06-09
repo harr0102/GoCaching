@@ -1,0 +1,16 @@
+(DONE) geocache category
+picture of the geocache
+read the geocache QR Code
+calculate the player's score
+(DONE) You also must implement an administration area where you can approve the registration of new geocaches (mandatory)
+Find a geocache: allow the user to read the geocache QR code and give her/him a score.
+(DONE) Administration area: show this area to at least one user. She/he will be the game administrator and responsible for managing the game rules.
+
+Save the current status of user interface components in the Shared Preferences.
+Use the camera to take a picture (of a geocache) and to read the QR codes.
+
+
+Generate the QR Code (e.g., https://www.qr-code-generator.com);
+
+(optional), activate and deactivate a geocache
+(optional), among others. You can implement any new idea in the administration area that you will have during your project's development.

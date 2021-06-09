@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">GoCaching</string>
+    <string name="where">Where:</string>
+    <string name="search">SEARCH</string>
+    <string name="where_hint">Insert cache placement</string>
+    <string name="cache_hint">Insert cache name</string>
+    <string name="category_hint">Insert category</string>
+    <string name="cache_text">Cache:</string>
+    <string name="searched_text">Searched:</string>
+    <string name="searched_hint">Searched</string>
+    <string name="add">Add</string>
+    <string name="info_text">Info</string>
+    <string name="info_hint">Info</string>
+    <string name="update">Update cache</string>
+    <string name="edit_cache_text">Edit Cache</string>
+    <string name="add_cache_text">Add Cache</string>
+    <string name="list_cache_text">List Caches</string>
+    <string name="cache_u_hint">Update name</string>
+    <string name="where_u_hint">Update where</string>
+    <string name="delete_go_caching">Delete Cache</string>
+    <string name="add_go_caching">Add Cache</string>
+    <string name="logOut">logOut</string>
+
+
+    <string name="lat_text">Latitude:</string>
+    <string name="lon_text">Longitude:</string>
+    <string name="maps_text">See location on map</string>
+
+    <string
+        name="google_maps_key"
+        templateMergeStrategy="preserve"
+        translatable="false"><PRIVATE KEY></string>
+
+    <string name="Email">Email</string>
+    <string name="password">Password</string>
+    <string name="logo_picture">Logo picture</string>
+    <string name="login">Login</string>
+    <string name="fullName">Full name</string>
+    <string name="signUp">Sign up</string>
+    <string name="category">Category</string>
+    <string name="updatedAt">Updated at: </string>
+    <string name="createdAt">Created at: </string>
+    <string name="firstName">First name</string>
+    <string name="lastName">Last name</string>
+    <string name="email">Email</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="update_profile">Update my profile</string>
+    <string name="user">user</string>
+    <string name="delete_user">Delete user</string>
+
+    <string name="capture_button">Capture Image</string>
+    <string name="camera_button">Change Camera</string>
+    <string name="takePicture">Take Picture</string>
+    <string name="passwordImage">Password image</string>
+    <string name="firstNameImage">First name image</string>
+    <string name="lastNameImage">lastNameImage</string>
+    <string name="emailImage">emailImage</string>
+    <string name="approve">Approve</string>
+    <string name="disapprove">Disapprove</string>
+    <string name="emailMustBeProvided">Email must be provided</string>
+    <string name="passwordMustBeProvided">Password must be provided</string>
+    <string name="lastNameMustBeProvided">Last name must be provided</string>
+    <string name="firstNameMustBeProvided">First name must be provided</string>
+    <string name="emailDoesntExists">Email doesn\'t exists</string>
+    <string name="emailAlreadyExists">Email already exists</string>
+    <string name="wrongPassword">Wrong password!</string>
+    <string name="currentLocation">Current Location</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="areYouSureYouWantToLogOut">Are you sure you want to logout?</string>
+    <string name="loggedOut">Logged out</string>
+    <string name="noCachesFound">No caches found</string>
+    <string name="myCaches">My caches</string>
+    <string name="successfullyUpdated">Successfully updated</string>
+    <string name="emailIsAlreadyInUse">Email is already in use</string>
+    <string name="yourUserHasNowBeenDeleted">Your user has now been deleted</string>
+
+    <string name="unavailable">Sensor unavailable</string>
+    <string name="degrees">%.7f°</string>
+    <string name="degree_celsius">%.7f°C</string>
+
+
+    <string name="back">Back</string>
+    <string-array name="supportItems">
+        <item>How do I name a cache?</item>
+        <item>Go to add cache through the menu to add a cache or edit the name by clicking on already existing caches</item>
+        <item>How do I update a cache?</item>
+        <item>Click on the cache you want to update and follow instructions given</item>
+        <item>How do I delete a cache?</item>
+        <item>Click on the cache you want to delete and select the trashcan</item>
+        <item>How do I signIn as admin?</item>
+        <item>Use email: admin, password: admin</item>
+        <item>How do I edit my profile?</item>
+        <item>Go to edit profile in the top bar when logged in</item>
+        <item>How do I delete my user?</item>
+        <item>Go to edit profile and select delete user</item>
+
+
+
+
+
+
+
+    </string-array>
+
+    <string name="support">Support</string>
+    <string name="temperature">Temperature</string>
+    <string name="point">Point:</string>
+    <string name="selectPoint">Select points</string>
+    <string name="cache_point">...</string>
+    <string name="scan_qr_text">Scan QR</string>
+    <string name="collect_point">Collect XXXX points</string>
+    <string name="total_points">Total points:</string>
+
+
+    <string-array name="points">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+</resources>

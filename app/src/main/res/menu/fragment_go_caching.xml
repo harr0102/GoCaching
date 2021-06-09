@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/scan_qr"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="@string/scan_qr_text"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/add_cache"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/add_go_caching"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/edit_profile"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="@string/edit_profile"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/log_out"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="@string/logOut"
+        app:showAsAction="ifRoom|withText"/>
+
+
+</menu>
